@@ -1,0 +1,11 @@
+framework module AnimatedAlert {
+  umbrella header "AnimatedAlert.h"
+
+  export *
+  module * { export * }
+}
+
+module AnimatedAlert.Swift {
+    header "AnimatedAlert-Swift.h"
+    requires objc
+}
