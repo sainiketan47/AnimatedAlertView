@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/sainiketan47/AnimatedAlertView.git", :tag => s.version.to_s }
 
 
-  s.source_files  = "AnimatedAlert.framework"
+  #s.source_files  = "AnimatedAlert.framework"
   s.ios.vendored_frameworks = 'AnimatedAlert.framework'
   #s.exclude_files = "Classes/Exclude"
 
